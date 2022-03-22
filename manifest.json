@@ -1,0 +1,12 @@
+{
+  "name": "Do something every x minute chrome extension",
+  "description": "Do something every x minute chrome extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "alarms"
+  ]
+}
